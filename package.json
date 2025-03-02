@@ -5,7 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^6.4.6",
+    "@mui/icons-material": "^5.13.0",
     "@mui/material": "^5.13.0",
     "framer-motion": "^12.4.7",
     "react": "^18.2.0",
@@ -22,9 +22,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "vercel-build": "npm install --legacy-peer-deps && npm run build"
   },
-  "homepage": "https://yourusername.github.io/excel-music-website",
+  "homepage": "https://excel-music.vercel.app",
   "browserslist": {
     "production": [
       ">0.2%",
